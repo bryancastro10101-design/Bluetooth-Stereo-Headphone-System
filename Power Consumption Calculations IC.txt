@@ -1,0 +1,25 @@
+Power consumption for KICAD Lab 7 and 11
+
+Current Drawn from IC (Look at worse case scenario)
+
+(1) TM4C123: ~30–40 mA  
+
+(2) ST7735R: ~40 mA
+
+(2) MCP34119P: ~120 µA (per amplifier)
+
+(2) TLV5616:  ~1 mA per amp
+
+(1) ESP32 - DEVKITC - V4: ~160–240 mA
+
+(1) MPM3610GQV (From 9V to 5V): ~200 µA  
+
+(1) MPM3610GQV (From 9V to 3.3V): ~200 µA
+
+(1) LM4041CILPR: ~60–100 µA
+
+Total Load Currents
+
+For 3.3V: (~30–40 mA) + (~40 mA) + (~40 mA) + (~160–240 mA) + (~200 µA) + (~200 µA) + (~60–100 µA) = 231.38 mA to 321.42 mA
+
+For 5V: (~120 µA) +(~120 µA) + (~1 mA) + (~1 mA) = Approx 2.32 mA
